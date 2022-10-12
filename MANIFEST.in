@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include salesman_app *.css
+recursive-include salesman_app *.csv
+recursive-include salesman_app *.html
+recursive-include salesman_app *.ico
+recursive-include salesman_app *.js
+recursive-include salesman_app *.json
+recursive-include salesman_app *.md
+recursive-include salesman_app *.png
+recursive-include salesman_app *.py
+recursive-include salesman_app *.svg
+recursive-include salesman_app *.txt
+recursive-exclude salesman_app *.pyc
